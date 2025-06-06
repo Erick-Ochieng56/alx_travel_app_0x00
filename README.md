@@ -84,10 +84,7 @@ A Django REST API for a travel booking application that allows users to list pro
 ## Setup Instructions
 
 ### Prerequisites
-- Python 3.8+
-- Django 4.0+
-- Django REST Framework
-- Pillow (for image handling)
+-Ensure you have the latest Python version installed For me, it's 3.12.4
 
 ### Installation
 
@@ -105,7 +102,7 @@ A Django REST API for a travel booking application that allows users to list pro
 
 3. **Install dependencies**
    ```bash
-   pip install django djangorestframework pillow
+   pip install -r requirements.txt
    ```
 
 4. **Run migrations**
